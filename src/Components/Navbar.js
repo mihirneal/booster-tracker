@@ -40,8 +40,8 @@ const Navbar = () => {
                   </div>
               </div>
               {/* Mobile Navigation  */}
-              <div className='menu hidden'>
-                  <MenuItems menuClass={'items-left block py-2 px-4 text-sm hover:bg-gray-200'}/>
+              <div className='menu hidden text-right md:hidden'>
+                  <MenuItems menuClass={'block py-2 px-4 text-sm hover:bg-gray-200'}/>
               </div>
           </div>
 
